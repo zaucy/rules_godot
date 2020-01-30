@@ -8,4 +8,4 @@ bazel run @godot//:godot
 
 ## License
 
-This repository is licensed under MIT. Keep in mind that these rules downloads [Godot](https://godotengine.org) which [has it's own license](https://godotengine.org/license) you must adhere to.
+This repository is licensed under MIT. Keep in mind that these rules download [Godot](https://godotengine.org) which [has it's own license](https://godotengine.org/license) you must adhere to.
