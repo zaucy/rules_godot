@@ -1,0 +1,8 @@
+local_repository(
+    name = "rules_godot",
+    path = "..",
+)
+
+load("@rules_godot//:index.bzl", "godot_repositories")
+
+godot_repositories()
