@@ -13,13 +13,12 @@ Add rules_godot to your `WORKSPACE` file
 ```python
 http_archive(
     name = "rules_godot",
-    strip_prefix = "rules_godot-fd69549a2bd0bfb9d031ae0d38f1c976dbf969c8",
-    url = "https://github.com/zaucy/rules_godot/archive/fd69549a2bd0bfb9d031ae0d38f1c976dbf969c8.zip",
-    sha256 = "d5bca5e26dbae0586d4fb5c6c55ce17f7a76cced7c1953007b2d61624e033826",
+    strip_prefix = "rules_godot-262f1497b8ebab6c0e7b25d653683146987e0c3d",
+    url = "https://github.com/zaucy/rules_godot/archive/262f1497b8ebab6c0e7b25d653683146987e0c3d.zip",
+    sha256 = "3f05765db213f1558e0241d321f3c90df799199238e7c2e7cbb28590550b63a6",
 )
 
 load("@rules_godot//:index.bzl", "godot_repositories")
-
 godot_repositories()
 ```
 
